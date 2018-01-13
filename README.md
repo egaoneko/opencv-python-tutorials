@@ -34,3 +34,12 @@ source /usr/local/bin/virtualenvwrapper.sh
 ```sh
 pip install -r installation
 ```
+
+### Set matplotlib
+
+* [https://github.com/dsmbgu8/image_annotate.py/issues/4](https://github.com/dsmbgu8/image_annotate.py/issues/4)
+* [https://matplotlib.org/faq/usage_faq.html](https://matplotlib.org/faq/usage_faq.html)
+
+```sh
+echo "backend: TkAgg" >> ~/.matplotlib/matplotlibrc
+```
