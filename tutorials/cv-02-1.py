@@ -1,8 +1,9 @@
-import cv2 #OpenCV 패키지 import
+import cv2  # OpenCV 패키지 import
 import numpy as np
 
+
 def showImage(img_flag):
-    img_file = '../img/sana01.jpeg'
+    img_file = '../resources/img/sana01.jpeg'
     window_title = 'sana'
 
     img = cv2.imread(img_file, img_flag)
@@ -15,8 +16,9 @@ def showImage(img_flag):
     if key == 27:
         cv2.destoryAllWindows()
     elif key == ord('c'):
-        cv2.imwrite('../img/sana_copy.jpg', img)
+        cv2.imwrite('../resources/img/sana_copy.jpg', img)
         cv2.destoryAllWindows()
+
 
 # showImage(cv2.IMREAD_COLOR)
 showImage(cv2.IMREAD_GRAYSCALE)

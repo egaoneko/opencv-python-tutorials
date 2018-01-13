@@ -81,3 +81,6 @@ collected_statics
 
 # virtualenv
 venv
+
+# vscode
+.vscode/
