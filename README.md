@@ -28,3 +28,9 @@ source /usr/local/bin/virtualenvwrapper.sh
 * `rmvirtualenv name`: remove env
 * `workon name`: activate source
 * `deactivate name`: deactivate source
+
+### Install libraries
+
+```sh
+pip install -r installation
+```
